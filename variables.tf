@@ -15,22 +15,22 @@ variable "aws_VPC_cidr" {
 
 variable "aws_Subnet1_cidr" {
     type = string
-    default = "10.0.0.0/24"
+    default = "10.0.1.0/24"
 }
 
 variable "aws_Subnet2_cidr" {
     type = string
-    default = "10.0.0.0/24"
+    default = "10.0.2.0/24"
 }
 
 variable "aws_Subnet3_cidr" {
     type = string
-    default = "10.0.0.0/24"
+    default = "10.0.3.0/24"
 }
 
 variable "aws_Subnet4_cidr" {
     type = string
-    default = "10.0.0.0/24"
+    default = "10.0.4.0/24"
 }
 
 variable "aws_instance_type" {
